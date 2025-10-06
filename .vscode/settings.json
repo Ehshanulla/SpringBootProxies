@@ -1,4 +1,18 @@
 {
-    "java.configuration.updateBuildConfiguration": "automatic",
-    "java.compile.nullAnalysis.mode": "automatic"
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Run Gradle App",
+      "type": "shell",
+      "command": "gradlew.bat",
+      "args": ["run"],
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "problemMatcher": []
+    }
+],
+"java.compile.nullAnalysis.mode": "automatic",
+"java.configuration.updateBuildConfiguration": "interactive"
 }
